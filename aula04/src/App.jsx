@@ -1,22 +1,21 @@
-import './App.css'
-import RenderList from './componentes/RenderList'
-import RenderProps from './componentes/RenderProps'
-import { dadoslista2 } from './componentes/dados'
-import RenderFilter from './componentes/RenderFilter'
+import './App.css';
+import ListasMap from './componentes/Listas.Map';
+import ListasFilter from './componentes/Listas.Filter';
+import ListasObj from './componentes/Listas.Obj';
+import Dropdowns from './componentes/Dropdowns'; 
 
 function App() {
- 
-
   return (
     <>
-      <RenderList />
+      <Dropdowns /> 
+      <br/>
+      <ListasMap />
       <br />
-      <RenderProps dados={dadoslista2}/>
+      <ListasFilter />
       <br />
-      <RenderFilter />
-
+      <ListasObj />
     </>
-  )
+  );
 }
 
 export default App

@@ -1,28 +1,22 @@
-export const dadoslista = ['Item 1', 'Item 2', 'Item 3' ]
+export const nomes = ["João", "Maria", "José", "Joana"];
 
-export const dadoslista2 = ['Configuração', 'Temas', 'Contato', 'Sobre']
+export const times = ["Flamengo", "Palmeiras", "Bahia","Santos"];
 
-export const dadoslista3 = [{
-    id: 1,
-    name: "Pedro",
-    age: 35,
-    cargo: "professor"
-},
-{
-    id: 2,
-    name: "Maria",
-    age: 25,
-    cargo: "aluno"
-},
-{
-    id: 3,
-    name: "João",
-    age: 46,
-    cargo: "aluno"
-},
-{
-    id: 4,
-    name: "Ana",
-    age: 22,
-    cargo: "professor"
-}]
+export const obj = [
+    {id: 0,
+    nome: 'pedro',
+    idade: 12},
+    {id: 1,
+    nome: 'fulano',
+    idade: 30},
+    {id: 2,
+    nome: 'cicrano',
+    idade: 10},
+    {id: 3,
+    nome: 'beltrano',
+    idade: 8},
+    {id: 4,
+    nome: 'tiriano',
+    idade: 21},
+
+]
