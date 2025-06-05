@@ -15,3 +15,5 @@ function Galeria({ personagens, aoSelecionar }) {
     </div>
   );
 }
+
+export default Galeria
