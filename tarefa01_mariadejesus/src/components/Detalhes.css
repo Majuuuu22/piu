@@ -1,0 +1,13 @@
+.detalhes {
+  margin-top: 30px;
+  padding: 20px;
+  border: 2px solid currentColor;
+  border-radius: 10px;
+}
+
+.imagem-detalhe {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
