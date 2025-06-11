@@ -1,0 +1,45 @@
+.app {
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: Arial, sans-serif;
+  padding: 1rem;
+  background: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.contador p {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+button {
+  margin: 0 0.5rem;
+  padding: 0.4rem 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  filter: brightness(0.9);
+}
+
+.lista-carros ul,
+.lista-carros-vermelhos ul {
+  list-style: none;
+  padding: 0;
+}
+
+.lista-carros li,
+.lista-carros-vermelhos li {
+  background: white;
+  margin: 0.4rem 0;
+  padding: 0.6rem 0.8rem;
+  border-radius: 4px;
+}
