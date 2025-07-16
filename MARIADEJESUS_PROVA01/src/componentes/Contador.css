@@ -1,0 +1,32 @@
+.contador-container {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #fdfdfd;
+  }
+  
+  .botoes {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .botao {
+    padding: 10px 20px;
+    background-color: #968e8e;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+/*cada vez que ultrapasar o limite estabelecido, aumenta o tamanho do botao*/
+  .incremento {
+    width: 250px;
+    font-size: 30px;
+  }
+/*diminui o tamanho quando passa o limite*/ 
+  .decremento {
+    width: 90px;
+    font-size:11px
+  }
