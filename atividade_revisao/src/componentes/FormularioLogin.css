@@ -1,0 +1,36 @@
+.formulario-login {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    gap: 10px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    background-color: #f7f7f7;
+  }
+  
+  .formulario-login h2 {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .formulario-login input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .formulario-login button {
+    padding: 10px;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .formulario-login button:hover {
+    background-color: #005fa3;
+  }
+  

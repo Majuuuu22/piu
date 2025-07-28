@@ -6,12 +6,12 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Para permitir requisições do frontend
+    allow_origins=["*"],  
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-usuarios_db = []  # Lista para armazenar usuários em memória
+usuarios_db = []  
 
 class Usuario(BaseModel):
     nome: str
